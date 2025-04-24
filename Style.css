@@ -1,0 +1,243 @@
+body {
+  background-color: rgb(142, 175, 235);
+  text-align: center;
+}
+
+.item1 {
+  background-color: rgb(35, 117, 165);
+  border: 1px solid black;
+  text-align: center;
+  transition: transform 0.5s ease;
+}
+
+.item1:hover {
+  background-color: rgb(24, 71, 99);
+  transform: scale(1.1);
+  color: white;
+}
+
+.container1 {
+  background-color: rgb(22, 74, 104);
+  border: 5px solid blue;
+}
+
+.container2 {
+  background-color: rgb(22, 74, 104);
+  border: 5px solid blue;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.container3 {
+  background-color: rgb(22, 74, 104);
+  border: 5px solid blue;
+
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.container4 {
+  background-color: rgb(22, 74, 104);
+  border: 5px solid blue;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.container5 {
+  background-color: rgb(22, 74, 104);
+  border: 5px solid blue;
+
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.container6 {
+  background-color: rgb(22, 74, 104);
+  border: 5px solid blue;
+
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.container7 {
+  background-color: rgb(22, 74, 104);
+  border: 5px solid blue;
+
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container8 {
+  background-color: rgb(22, 74, 104);
+  border: 5px solid blue;
+
+  display: flex;
+  justify-content: baseline;
+}
+
+.container9 {
+  background-color: rgb(22, 74, 104);
+  border: 5px solid blue;
+
+  display: flex;
+  justify-content: center;
+}
+
+.container10 {
+  background-color: rgb(22, 74, 104);
+  border: 5px solid blue;
+
+  display: flex;
+  justify-content: end;
+}
+
+.container11 {
+  background-color: rgb(22, 74, 104);
+  border: 5px solid blue;
+
+  display: flex;
+  justify-content: first baseline;
+}
+
+.container12 {
+  background-color: rgb(22, 74, 104);
+  border: 5px solid blue;
+
+  display: flex;
+  justify-content: flex-end;
+}
+
+.container13 {
+  background-color: rgb(22, 74, 104);
+  border: 5px solid blue;
+
+  display: flex;
+  justify-content: flex-start;
+}
+
+.container14 {
+  background-color: rgb(22, 74, 104);
+  border: 5px solid blue;
+
+  display: flex;
+  justify-content: last baseline;
+}
+
+.container15 {
+  background-color: rgb(22, 74, 104);
+  border: 5px solid blue;
+
+  display: flex;
+  justify-content: left;
+}
+
+.container16 {
+  background-color: rgb(22, 74, 104);
+  border: 5px solid blue;
+
+  display: flex;
+  justify-content: right;
+}
+
+.container17 {
+  background-color: rgb(22, 74, 104);
+  border: 5px solid blue;
+
+  display: flex;
+  justify-content: safe;
+}
+
+.container18 {
+  background-color: rgb(22, 74, 104);
+  border: 5px solid blue;
+
+  display: flex;
+  justify-content: space-around;
+}
+
+.container19 {
+  background-color: rgb(22, 74, 104);
+  border: 5px solid blue;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.container20 {
+  background-color: rgb(22, 74, 104);
+  border: 5px solid blue;
+
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.container21 {
+  background-color: rgb(22, 74, 104);
+  border: 5px solid blue;
+
+  display: flex;
+  justify-content: start;
+}
+
+.container22 {
+  background-color: rgb(22, 74, 104);
+  border: 5px solid blue;
+
+  display: flex;
+  justify-content: stretch;
+}
+
+.container23 {
+  background-color: rgb(22, 74, 104);
+  border: 5px solid blue;
+
+  display: flex;
+  justify-content: unsafe;
+}
+
+.container24 {
+  background-color: rgb(22, 74, 104);
+  border: 5px solid blue;
+
+  display: flex;
+  justify-content: inherit;
+}
+
+.container25 {
+  background-color: rgb(22, 74, 104);
+  border: 5px solid blue;
+
+  display: flex;
+  justify-content: initial;
+}
+
+.container26 {
+  background-color: rgb(22, 74, 104);
+  border: 5px solid blue;
+
+  display: flex;
+  justify-content: unset;
+}
+
+.container27 {
+  background-color: rgb(22, 74, 104);
+  border: 5px solid blue;
+
+  display: flex;
+  justify-items: auto;
+}
+
+h4 {
+  margin: 5px;
+  font-size: 20px;
+  color: #03011f;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #03011f;
+  text-decoration: overline underline;
+}
